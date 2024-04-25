@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  #diceContainer {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+  }
+  
+  #dice {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
